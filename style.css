@@ -150,9 +150,10 @@ button{font:inherit}
 .footer-links{flex-wrap:wrap}
 }
 
-/* Obaloluwa photo adjustment only */
+/* Obaloluwa photo adjustment */
 .team-card:nth-child(3) .team-photo{
-background-position:center top;
-background-size:100% auto;
+background-size:contain;
+background-position:center center;
 background-repeat:no-repeat;
+background-color:#f2e9f9;
 }
